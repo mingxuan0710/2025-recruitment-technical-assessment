@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Freerooms</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo-container">
+      <img id="logo-image" src="assets/freeRoomsLogo.png" alt="Logo" class="logo">
+      <span class="site-title">Freerooms</span>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-box"><i class="fas fa-search"></i></div>
+      <div class="icon-box"><i class="fas fa-th-large"></i></div>
+      <div class="icon-box"><i class="fas fa-map"></i></div>
+      <div class="icon-box"><i class="fas fa-moon"></i></div>
+    </div>
+  </header>
+
+  <div class="controls-container">
+    <button class="filters-button">
+      <i class="fas fa-filter"></i> Filters
+    </button>
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search for a building...">
+    </div>
+    <button class="sort-button">
+      <i class="fas fa-sort"></i> Sort
+    </button>
+  </div>
+
+  <div class="image-grid" id="imageGrid"></div>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+To work with the frontend code locally with the web server, you may have to run another web server.
+
+To do this, run the following command once on your machine:
+
+$ npm install --global http-server
+Then whenever you want to start your server, run the following in the project's root folder:
+
+$ npx http-server frontend -c 1 -p 8080
+
+Any port number is fine.
+
+This will start up a second HTTP server where if you navigate to http://localhost:8080 (or whatever URL/port it provides) it will run the index.html without any CORs issues.
